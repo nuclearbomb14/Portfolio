@@ -1,0 +1,17 @@
+body {
+    font-family: 'Verdana', sans-serif; 
+    background-color: white;
+}
+
+.header {
+    h1 {
+        text-align: center;
+        margin-top: 150px;
+        
+    }
+}
+
+#PictureJimmy {
+    height: 300px;
+    width: 300px;
+}
