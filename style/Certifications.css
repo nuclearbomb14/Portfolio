@@ -1,0 +1,27 @@
+body {
+    font-family: 'Verdana', sans-serif; 
+    background-color: white;
+}
+
+.header {
+    h1 {
+        text-align: center;
+        margin-top: 100px;
+        
+    }
+}
+
+#picture_osha {
+    height: auto;
+    width: 300px;
+}
+
+#picture_python {
+    height: auto;
+    width: 300px;
+}
+
+#picture_javascript {
+    height: auto;
+    width: 300px;
+}
