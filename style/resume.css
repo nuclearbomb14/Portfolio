@@ -1,0 +1,15 @@
+#title{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    font-family: Monaca;
+}
+
+#picture_resume{
+    width: auto;
+    height: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

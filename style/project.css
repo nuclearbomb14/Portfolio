@@ -6,22 +6,21 @@
     font-family: Monaca;
 }
 
-#certifications {
+#projects {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 15px;
-
 }
 
-.certification {
+.project {
     position: relative;
     width: 450px;
     height: 450px; 
 }
 
-.picture_certification {
+.picture_project {
     width: 100%;
-    height: auto;
+    height: 100%;
 }

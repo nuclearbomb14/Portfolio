@@ -1,0 +1,45 @@
+.header{
+    width: 100%;
+    height: 75px;
+    display: block;
+    background-color: black;
+}
+
+
+/* Adjust black border of header */
+.inner_header{
+    width: 100%;
+    height: 120%; 
+    display: block;
+    margin: 0 auto;
+    float: right;
+    background-color: black;
+}
+
+.navigation{
+    width: 100%;
+    height: 100%;
+    font-weight: 400px;
+    justify-items: center;
+    list-style-type: none;
+}
+
+.navigation li{
+    width: auto;
+    height: 100%;
+    padding: 0px 20px;
+    float: left;
+    vertical-align: middle;
+    display: flex;
+}
+
+.navigation li:first-child{
+    padding-left: 35px;
+}
+
+.navigation li a {
+    margin: auto;
+    font-size: 1.2em;
+    font-family: 'Optima';
+    color: white;
+}
