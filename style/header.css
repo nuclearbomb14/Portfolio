@@ -42,4 +42,26 @@
     font-size: 1.2em;
     font-family: 'Optima';
     color: white;
+
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
 }
+
+.navigation li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: middle;
+    transition: transform 0.75s ease-out;
+}
+
+.navigation li a:hover::after {
+    transform: scaleX(1);
+}
+
