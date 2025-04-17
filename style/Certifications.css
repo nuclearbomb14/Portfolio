@@ -21,9 +21,9 @@
     height: 3px;
     background-color: black;
 
-    transform-origin: left;
+    transform-origin: middle;
     animation-name: title_animation;
-    animation-timing-function: ease-out;
+    animation-timing-function: ease;
     animation-duration: 1s;
 }
 
@@ -40,12 +40,35 @@
     flex-wrap: wrap;
     gap: 15px;
 
+    animation-name: certification_animation;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    opacity: 0.3;
+
+}
+
+@keyframes certification_animation {
+    from {opacity: 0.3;}
+    to {opacity: 1;}
+
 }
 
 .certification {
     position: relative;
     width: 450px;
     height: 450px; 
+
+    animation-name: certification_size_animation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    transform: scale(0.8);
+}
+
+@keyframes certification_size_animation {
+    from {transform: scale(0.8);}
+    to {transform: scale(1);}
 }
 
 .picture_certification {

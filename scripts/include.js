@@ -1,4 +1,4 @@
-window.onload = function () {
+document.addEventListener('DOMContentLoaded', function () {
     const loadCSS = href => {
         return new Promise(resolve => {
             const link = document.createElement('link');
@@ -10,8 +10,8 @@ window.onload = function () {
     };
 
     Promise.all([
-        loadCSS('../style/universal.css'),
-        loadCSS('../style/header.css')
+        loadCSS('../style/header.css'),
+        loadCSS('../style/footer.css')
     ]).then(() => {
         return fetch('header.html');
     }).then(response => response.text())
@@ -24,4 +24,4 @@ window.onload = function () {
         .then(data => {
             document.getElementById('footer-container').innerHTML = data;
         });
-};
+});

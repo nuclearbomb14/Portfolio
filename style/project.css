@@ -24,3 +24,47 @@
     width: 100%;
     height: 100%;
 }
+
+#game_project {
+    animation-name: game_animation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    transform: scale(0.8);
+    opacity: 0.3;
+}
+
+#robotics {
+    animation-name: robotics_animation;
+    animation-duration: 1s;
+    animation-delay: 0.05s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    transform: scale(0.8);
+    opacity: 0.3;
+}
+
+#TEMP {
+    animation-name: TEMP_animation;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    transform: scale(0.8);
+    opacity: 0.3;
+}
+
+@keyframes game_animation {
+    from {opacity: 0.3; transform: scale(0.8);}
+    to {opacity: 1; transform: scale(1);}
+}
+
+@keyframes robotics_animation {
+    from {opacity: 0.3; transform: scale(0.8);}
+    to {opacity: 1; transform: scale(1);}
+}
+
+@keyframes TEMP_animation {
+    from {opacity: 0.3; transform: scale(0.8);}
+    to {opacity: 1; transform: scale(1);}
+}
