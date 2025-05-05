@@ -57,7 +57,7 @@
 .certification {
     position: relative;
     width: 450px;
-    height: 450px; 
+    height: auto; 
 
     animation-name: certification_size_animation;
     animation-duration: 1s;
