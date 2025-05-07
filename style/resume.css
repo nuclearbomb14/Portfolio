@@ -3,7 +3,34 @@
     font-size: 50px;
     margin-top: 75px;
     margin-bottom: 50px;
-    font-family: Monaca;
+    font-family: Bahnschrift Light;
+    text-decoration-thickness: 3px;
+
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+
+    transform-origin: middle;
+    animation-name: title_animation;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+}
+
+@keyframes title_animation {
+    from {transform: scaleX(0.15);}
+    to {transform: scaleX(1);}
+
 }
 
 #picture_resume{
@@ -12,4 +39,23 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    animation-name: resume_animation;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    opacity: 0.3;
+    transform: scale(0.8);
+}
+
+@keyframes resume_animation {
+    from {
+        transform: scale(0.8);
+        opacity: 0.3;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+
 }

@@ -4,6 +4,7 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Verdana', sans-serif; 
+    color: white;
 }
 
 #parallax-background {
@@ -12,7 +13,7 @@
     left: 0;
     width: 100%;
     height: 125vh; /* Full viewport height */
-    background-image: url('../img/TreeBackground.jpeg');
+    background-image: url('../img/TechBackground.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

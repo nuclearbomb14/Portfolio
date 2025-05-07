@@ -3,8 +3,36 @@
     font-size: 50px;
     margin-top: 75px;
     margin-bottom: 50px;
-    font-family: Monaca;
+    font-family: Bahnschrift Light;
+    text-decoration-thickness: 3px;
+
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
+#title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+
+    transform-origin: middle;
+    animation-name: title_animation;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+}
+
+@keyframes title_animation {
+    from {transform: scaleX(0.15);}
+    to {transform: scaleX(1);}
+
+}
+
 
 #info{
     display: flex;
