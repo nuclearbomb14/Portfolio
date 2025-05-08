@@ -3,7 +3,7 @@
     font-size: 50px;
     margin-top: 75px;
     margin-bottom: 50px;
-    font-family: Bahnschrift Light;
+    font-family: Verdana;
     text-decoration-thickness: 3px;
 
     position: relative;
@@ -16,9 +16,9 @@
     content: "";
     position: absolute;
     left: 0;
-    bottom: -7px;
+    bottom: -15px;
     width: 100%;
-    height: 4px;
+    height: 3px;
     background-color: white;
 
     transform-origin: middle;
@@ -38,7 +38,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 50px;
 }
 
 .project {
@@ -56,6 +56,9 @@
 .picture_project {
     width: 100%;
     height: 100%;
+    border-style: double;
+    border-color: white;
+    border-width: 7px;
 }
 
 #game_project {
@@ -100,4 +103,14 @@
 @keyframes TEMP_animation {
     from {opacity: 0.3; transform: scale(0.8);}
     to {opacity: 1; transform: scale(1);}
+}
+
+
+.project_title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.desc_project {
+    margin-top: 15px;
 }
