@@ -34,3 +34,19 @@
     height: 50px;
     z-index: 1; /* Content sits above the parallax background */
 }
+
+
+
+
+
+@media screen and (max-width: 1449px) {
+    html { font-size: 80%; }
+}
+
+@media screen and (max-width: 949px) {
+    html { font-size: 70%; }
+}
+
+@media screen and (max-width: 565px) {
+    html { font-size: 65%; }
+}

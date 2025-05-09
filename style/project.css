@@ -39,6 +39,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
+    row-gap: 250px;
 }
 
 .project {
@@ -59,6 +60,7 @@
     border-style: double;
     border-color: white;
     border-width: 7px;
+    border-radius: 14px;
 }
 
 #game_project {
@@ -113,4 +115,5 @@
 
 .desc_project {
     margin-top: 15px;
+    line-height: 25px;
 }
