@@ -59,8 +59,8 @@
     height: 100%;
     border-style: double;
     border-color: white;
-    border-width: 7px;
-    border-radius: 14px;
+    border-width: 6px;
+    border-radius: 7px;
 }
 
 #game_project {
@@ -116,4 +116,6 @@
 .desc_project {
     margin-top: 15px;
     line-height: 25px;
+    text-align: center;
+    
 }

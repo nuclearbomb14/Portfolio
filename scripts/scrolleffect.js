@@ -1,5 +1,13 @@
-window.addEventListener('scroll', function () {
+function updateBackground(){
     const scrollTop = window.scrollY;
     const parallax = document.getElementById('parallax-background');
-    parallax.style.transform = 'translateY(' + (-scrollTop * 0.3) + 'px)';
+    parallax.style.backgroundPositionY = -(scrollTop * 0.075) + 'px';
+}
+
+window.addEventListener('scroll', function () {
+    updateBackground();
 });
+
+window.addEventListener('DOMContentLoaded', function() {
+    updateBackground();
+})
