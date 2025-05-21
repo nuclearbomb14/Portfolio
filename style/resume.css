@@ -33,7 +33,7 @@
 
 }
 
-#picture_resume{
+#picture_resume {
     width: auto;
     height: 1000px;
     display: block;
@@ -58,4 +58,28 @@
         opacity: 1;
     }
 
+}
+
+@media screen and (max-width: 1449px) {
+    #picture_resume {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 1049px) {
+    #picture_resume {
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 859px) {
+    #picture_resume {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 669px) {
+    #picture_resume {
+        height: 500px;
+    }
 }

@@ -39,8 +39,8 @@
 
 .navigation li a {
     margin: auto;
-    font-size: 1.2em;
     font-family: Bahnschrift Light;
+    font-size: 1.2em;
     color: white;
 
     position: relative;
@@ -71,3 +71,20 @@
     transform: scaleX(1);
 }
 
+@media screen and (max-width: 1449px) {
+    .navigation li a {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 949px) {
+    .navigation li a {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .navigation li a {
+        font-size: 1.4em;
+    }
+}
