@@ -39,7 +39,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
-    row-gap: 250px;
+    row-gap: 300px;
 }
 
 .project {
@@ -115,7 +115,6 @@
 .project_title {
     text-align: center;
     margin-bottom: 20px;
-    margin-top: 20px;
 }
 
 .desc_project {
@@ -124,6 +123,10 @@
     text-align: center;
     color: #E7E7E7;
     font-size: 1em;
+}
+
+body {
+    padding-bottom: 220px;
 }
 
 @media screen and (max-width: 1449px) {
